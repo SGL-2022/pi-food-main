@@ -1,0 +1,16 @@
+.detailContent{
+    margin: 120px;
+}
+
+.image{
+    width: 400px;
+    height: 300px;
+}
+
+.typeDiet{
+    padding: 10px 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

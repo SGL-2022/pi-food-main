@@ -1,0 +1,30 @@
+.paginated{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.paginated ul{
+    list-style: none;
+    display: flex;
+}
+
+.paginated ul li button{
+    margin: 0px 10px 0px 10px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: brown;
+    font-weight: bold;
+    color: white;
+    border-radius: 99999px;
+    border: 1px solid yellow;
+}
+.paginated ul li button:hover{
+    box-shadow: 0 0 10px yellow;
+}
