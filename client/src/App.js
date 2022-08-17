@@ -16,8 +16,6 @@ function App() {
           <Route  path = '/home' render = { () => <Home/> }/>
           <Route exact path ='/recipes/:id' render = { () => <Detail/> }/>
           <Route exact path ='/recipe' render = { () => <CreateRecipe/> }/>
-          {/* <Route exact path ='/register' render = { () => <CreateUser/> }/>
-          <Route exact path ='/login' render = { () => <Login/> }/> */}
         </Switch>
       </div>
     </BrowserRouter>
